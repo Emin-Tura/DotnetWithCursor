@@ -1,0 +1,58 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "UserService",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-userservice",
+            "program": "${workspaceFolder}/src/UserService/UserService/bin/Debug/net8.0/UserService.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/UserService/UserService",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)",
+                "uriFormat": "%s/swagger"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "DOTNET_ROOT": "/opt/homebrew/Cellar/dotnet@8/8.0.11/libexec",
+                "ASPNETCORE_URLS": "https://localhost:7172;http://localhost:5172"
+            },
+            "console": "internalConsole",
+            "justMyCode": false
+        },
+        {
+            "name": "ApiGateway",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-apigateway",
+            "program": "${workspaceFolder}/src/ApiGateway/ApiGateway/bin/Debug/net8.0/osx-arm64/ApiGateway.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/ApiGateway/ApiGateway",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)",
+                "uriFormat": "%s/swagger"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "DOTNET_ROOT": "/opt/homebrew/Cellar/dotnet@8/8.0.11/libexec",
+                "ASPNETCORE_URLS": "https://localhost:7000;http://localhost:5000"
+            },
+            "console": "internalConsole",
+            "justMyCode": false
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Microservices",
+            "configurations": [
+                "UserService",
+                "ApiGateway"
+            ]
+        }
+    ]
+}

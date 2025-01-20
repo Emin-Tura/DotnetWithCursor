@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "qEKY2Mhztt1bxCyhCiXFZQ0050ExNynCryaxAy+46G1RsP2n5OTna/5Ca22cyBBwEXvxIEy6gX1tUhW+l5gTOw==",
+  "success": true,
+  "projectFilePath": "/Users/emintura/Desktop/Çalışmalar/DotnetProjects/DotnetWithCursor/src/Frontend/app/src/ProductService/ProductService.csproj",
+  "expectedPackageFiles": [
+    "/Users/emintura/.nuget/packages/microsoft.aspnetcore.openapi/8.0.11/microsoft.aspnetcore.openapi.8.0.11.nupkg.sha512",
+    "/Users/emintura/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/emintura/.nuget/packages/microsoft.openapi/1.6.14/microsoft.openapi.1.6.14.nupkg.sha512",
+    "/Users/emintura/.nuget/packages/swashbuckle.aspnetcore/6.6.2/swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
+    "/Users/emintura/.nuget/packages/swashbuckle.aspnetcore.swagger/6.6.2/swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
+    "/Users/emintura/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.6.2/swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
+    "/Users/emintura/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.6.2/swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512"
+  ],
+  "logs": []
+}

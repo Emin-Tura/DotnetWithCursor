@@ -19,6 +19,23 @@
             }
         },
         {
+            "label": "build-geoipservice",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/src/GeoIPService/GeoIPService.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary",
+                "/p:RuntimeIdentifier=osx-arm64"
+            ],
+            "problemMatcher": "$msCompile",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
             "label": "build-apigateway",
             "command": "dotnet",
             "type": "process",
@@ -33,4 +50,4 @@
             "group": "build"
         }
     ]
-} 
+}

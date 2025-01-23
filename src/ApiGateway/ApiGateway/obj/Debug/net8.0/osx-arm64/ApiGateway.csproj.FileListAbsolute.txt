@@ -42,3 +42,4 @@
 /Users/emintura/Desktop/Çalışmalar/DotnetProjects/DotnetWithCursor/src/ApiGateway/ApiGateway/obj/Debug/net8.0/osx-arm64/ApiGateway.csproj.CopyComplete
 /Users/emintura/Desktop/Çalışmalar/DotnetProjects/DotnetWithCursor/src/ApiGateway/ApiGateway/obj/Debug/net8.0/osx-arm64/ApiGateway.genruntimeconfig.cache
 /Users/emintura/Desktop/Çalışmalar/DotnetProjects/DotnetWithCursor/src/ApiGateway/ApiGateway/obj/Debug/net8.0/osx-arm64/ref/ApiGateway.dll
+/Users/emintura/Desktop/Çalışmalar/DotnetProjects/DotnetWithCursor/src/ApiGateway/ApiGateway/obj/Debug/net8.0/osx-arm64/ApiGateway.sourcelink.json

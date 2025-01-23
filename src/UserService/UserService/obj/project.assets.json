@@ -5278,11 +5278,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/emintura/Desktop/Çalışmalar/DotnetProjects/DotnetWithCursor/src/UserService/UserService/UserService.csproj",
+      "projectUniqueName": "/Users/emintura/Desktop/Çalışmalar/DotnetProjects/DotnetWithCursor/src/UserService/UserService/UserService.csproj",
       "projectName": "UserService",
-      "projectPath": "/Users/emintura/Desktop/Çalışmalar/DotnetProjects/DotnetWithCursor/src/UserService/UserService/UserService.csproj",
+      "projectPath": "/Users/emintura/Desktop/Çalışmalar/DotnetProjects/DotnetWithCursor/src/UserService/UserService/UserService.csproj",
       "packagesPath": "/Users/emintura/.nuget/packages/",
-      "outputPath": "/Users/emintura/Desktop/Çalışmalar/DotnetProjects/DotnetWithCursor/src/UserService/UserService/obj/",
+      "outputPath": "/Users/emintura/Desktop/Çalışmalar/DotnetProjects/DotnetWithCursor/src/UserService/UserService/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/emintura/.nuget/NuGet/NuGet.Config"

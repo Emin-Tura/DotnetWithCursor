@@ -112,3 +112,4 @@
 /Users/emintura/Desktop/Çalışmalar/DotnetProjects/DotnetWithCursor/src/UserService/UserService/obj/Debug/net8.0/UserService.csproj.CopyComplete
 /Users/emintura/Desktop/Çalışmalar/DotnetProjects/DotnetWithCursor/src/UserService/UserService/obj/Debug/net8.0/UserService.genruntimeconfig.cache
 /Users/emintura/Desktop/Çalışmalar/DotnetProjects/DotnetWithCursor/src/UserService/UserService/obj/Debug/net8.0/ref/UserService.dll
+/Users/emintura/Desktop/Çalışmalar/DotnetProjects/DotnetWithCursor/src/UserService/UserService/obj/Debug/net8.0/UserService.sourcelink.json

@@ -1,0 +1,6 @@
+@GeoIPService_HostAddress = http://localhost:5004
+
+GET {{GeoIPService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

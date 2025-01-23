@@ -24,6 +24,28 @@
             "justMyCode": false
         },
         {
+            "name": "GeoIPService",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-geoipservice",
+            "program": "${workspaceFolder}/src/GeoIPService/bin/Debug/net8.0/GeoIPService.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/GeoIPService",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)",
+                "uriFormat": "%s/swagger"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "DOTNET_ROOT": "/opt/homebrew/Cellar/dotnet@8/8.0.11/libexec",
+                "ASPNETCORE_URLS": "https://localhost:7173;http://localhost:5173"
+            },
+            "console": "internalConsole",
+            "justMyCode": false
+        },
+        {
             "name": "ApiGateway",
             "type": "coreclr",
             "request": "launch",
@@ -51,6 +73,7 @@
             "name": "Microservices",
             "configurations": [
                 "UserService",
+                "GeoIPService",
                 "ApiGateway"
             ]
         }

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "x64z8mSoim4wIyE1pXq05uojhfWpAib5hOHSlnfIbSI=",
+  "Source": "GeoIPService",
+  "BasePath": "_content/GeoIPService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
